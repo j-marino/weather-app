@@ -37,7 +37,7 @@ h1 {
 }
 
 #search:focus {
-  border-color: #F07B3F; /* Change border color on focus */
+  border-color: #F07B3F; 
   outline: none;
 }
 
@@ -47,7 +47,7 @@ h1 {
   align-items: center;
   margin: 20px;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.1); /* Light background */
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
@@ -55,7 +55,7 @@ h1 {
 .weather-detail {
   margin: 10px 0;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  background: rgba(255, 255, 255, 0.2); 
   border-radius: 8px;
   width: 100%;
   text-align: center;
@@ -64,5 +64,5 @@ h1 {
 }
 
 .weather-detail:hover {
-  background: rgba(255, 255, 255, 0.3); /* Change background on hover */
+  background: rgba(255, 255, 255, 0.3);
 }
