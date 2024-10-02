@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Afacad Flux', sans-serif;
+  background: linear-gradient(135deg, #FFD460, #F07B3F);
+  color: #EDEADE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  transition: background 0.5s; 
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 20px;
+  font-size: 3.2rem;
+}
+
+.search-bar-container {
+  margin-bottom: 5px;
+}
+
+#search {
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #FFF;
+  border: 2px solid #FFF;
+  font-size: 16px;
+  width: 250px;
+  transition: border-color 0.3s;
+}
+
+#search:focus {
+  border-color: #F07B3F; /* Change border color on focus */
+  outline: none;
+}
+
+#weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1); /* Light background */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.weather-detail {
+  margin: 10px 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  transition: background 0.5s;
+  font-size: 1.9rem;
+}
+
+.weather-detail:hover {
+  background: rgba(255, 255, 255, 0.3); /* Change background on hover */
+}
